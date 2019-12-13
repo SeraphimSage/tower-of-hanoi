@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tower of Hanoi Puzzle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h2>Coding by Kenneth Pinkerton and Ken Stephens</h2>
+    </header>
+
+    <div id="towerContainer">
+        <div class="disk" id="holding"></div>
+
+        <div class="tower" id="t1">
+            <h3>Start</h3>
+            <div class="peg" style="width: 4px;"></div>
+            <div class="disk" id="d4" style="width: 200px;"><p>4444</p></div>
+            <div class="disk" id="d3" style="width: 150px;"><p>333</p></div>
+            <div class="disk" id="d2" style="width: 100px;"><p>22</p></div>
+            <div class="disk" id="d1" style="width: 50px;"><p>1</p></div>
+        </div>
+        
+        <div class="tower" id="t2">
+            <h3>Offset</h3>
+            <div class="peg" style="width: 4px;"></div>
+        </div>
+        
+        <div class="tower" id="t3">
+            <h3>End</h3>
+            <div class="peg" style="width: 4px;"></div>
+        </div>
+
+    </div>
+    <script src="hanoi.js"></script>
+</body>
+</html>
